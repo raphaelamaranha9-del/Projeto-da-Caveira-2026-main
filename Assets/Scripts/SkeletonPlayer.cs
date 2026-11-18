@@ -65,7 +65,18 @@ public class SkeletonPlayer : MonoBehaviour
         moedasColetadas++;
 
         Debug.Log("Moedas coletadas: " + moedasColetadas);
+
+
+       if (moedasColetadas >=8) {
+
+
+            Debug.Log("voce coletou todas as moedas");
+
+
+        }
     }
+
+
 
 
     void Movimento()
